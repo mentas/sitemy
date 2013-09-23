@@ -108,7 +108,8 @@ ROOT_URLCONF = 'sitemy.urls'
 WSGI_APPLICATION = 'sitemy.wsgi.application'
 
 import os
-TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
+TEMPLATE_DIRS = ('/home/mentas/projects/sitemy/templates',
+)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
